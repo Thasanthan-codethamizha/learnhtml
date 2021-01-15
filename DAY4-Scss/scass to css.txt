@@ -1,0 +1,2 @@
+sass lesson8.scss:lesson8.css
+sass --watch lesson8.scss:lesson8.css

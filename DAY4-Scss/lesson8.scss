@@ -1,0 +1,26 @@
+//npm install -g sass
+//sass lesson8.scss:lesson8.css
+//sass --watch lesson8.scss:lesson8.css
+$color1: blue;
+$color2: red;
+$font1: 20px;
+$font2: 30px;
+ul {
+  font-size: $font1;
+  color: $color1;
+}
+
+ol {
+  color: $color2;
+  font-size: $font2;
+}
+
+div {
+  p {
+    color: $color2;
+    font-size: $font2;
+  }
+  h1 {
+    color: $color1;
+  }
+}
