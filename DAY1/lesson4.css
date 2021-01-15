@@ -1,0 +1,42 @@
+body {
+  background-color: darkcyan;
+}
+
+.main {
+  background-color: burlywood;
+  display: flex;
+}
+
+.box {
+  width: 240px;
+  height: 240px;
+  padding: 20px;
+  margin: 20px;
+  background-color: cadetblue;
+  border: 3px solid crimson;
+}
+h1 {
+  font-family: fantasy;
+  color: crimson;
+  font-size: 40px;
+  font-weight: bold;
+}
+.table_class {
+}
+table {
+  height: 285px;
+  margin: 20px;
+  background-color: cadetblue;
+  border: 2px solid darkblue;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 2px solid darkblue;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+td:hover {
+  background-color: chocolate;
+}
