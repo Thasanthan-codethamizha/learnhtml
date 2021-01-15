@@ -1,9 +1,9 @@
 body {
-  background-color: darkcyan;
+  background-color: #252323;
 }
 
 .main {
-  background-color: burlywood;
+  background-color: #353232;
   display: flex;
 }
 
@@ -12,12 +12,12 @@ body {
   height: 240px;
   padding: 20px;
   margin: 20px;
-  background-color: cadetblue;
-  border: 3px solid crimson;
+  background-color: rgb(96, 120, 121);
+  border: 3px solid rgb(104, 87, 90);
 }
 h1 {
   font-family: fantasy;
-  color: crimson;
+  color: rgb(235, 190, 199);
   font-size: 40px;
   font-weight: bold;
 }
@@ -26,17 +26,18 @@ h1 {
 table {
   height: 285px;
   margin: 20px;
-  background-color: cadetblue;
-  border: 2px solid darkblue;
+  background-color: rgb(95, 108, 109);
+  border: 2px solid rgb(10, 120, 209);
   border-collapse: collapse;
 }
 th,
 td {
-  border: 2px solid darkblue;
+  border: 2px solid rgb(82, 93, 94);
   padding-left: 20px;
   padding-right: 20px;
 }
 
 td:hover {
-  background-color: chocolate;
+  background-color: #252323;
+  color: aliceblue;
 }
