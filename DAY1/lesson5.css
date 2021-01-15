@@ -19,3 +19,14 @@ body {
 .lists > ol > ul > li {
   color: tomato;
 }
+
+.lists > button {
+  width: 200px;
+  height: 50px;
+  font-size: 24px;
+  background-color: springgreen;
+}
+.lists > button:hover {
+  background-color: teal;
+  color: thistle;
+}
