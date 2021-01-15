@@ -1,0 +1,13 @@
+/*
+***********************inheritance****************************
+
+%message{
+    font-size:20px;
+    width:200px;
+    backround-color:white;
+}
+.box{
+    @extend %message;
+    color:black;
+}
+*/
